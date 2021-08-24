@@ -190,8 +190,6 @@ searchBar.addEventListener('keyup', (event) => {
     activeBusinesses(filteredBusArr, "#businessList")       
     });
 
-
-
 const radioBtnClick =(event) => {
     if (event.target.id === "exampleRadios1") {
         activeBusinesses(businessesArray, "#businessList")
