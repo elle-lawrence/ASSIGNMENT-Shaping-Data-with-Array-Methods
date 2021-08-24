@@ -166,7 +166,6 @@ const activeBusinesses = (array, divId) => {
     renderToDom(divId, businessInfo);
 } 
 
-
 businessesArray.sort((a, b) => {
     if (a.companyName < b.companyName) {
         return -1;
@@ -178,7 +177,6 @@ businessesArray.sort((a, b) => {
   });
 
 const searchBar = document.querySelector('#searchbar');
-
 
 searchBar.addEventListener('keyup', (event) => {
     const searchString = event.target.value.toLowerCase();
